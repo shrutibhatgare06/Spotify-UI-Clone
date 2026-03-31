@@ -1,5 +1,4 @@
 # Spotify-UI-Clone
-<hr>
 Technologies: HTML, CSS
 <hr>
 Designed a Spotify-inspired music streaming UI focusing on layout, alignment, and visual consistency.<br>
