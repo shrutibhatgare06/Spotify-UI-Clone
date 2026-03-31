@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /><!--For awesome icons-->
+    <link rel="icon" href="./_assets_spotify/logo.png">
+    <link rel="stylesheet" href="project_1(spotify clone).css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="parentPage">
+        <!--SLIDEBAR DESIGN-->
+        <div class="slidebar">
+            <nav class="navOptions">
+                <!-- <ul class="navList"> -->
+                <div class="sideOption"><i class="fa-solid fa-house"></i><a href="#">Home</a></div>
+                <div class="sideOption"><i class="fa-solid fa-magnifying-glass"></i><a href="#">Search</a></div>
+
+            </nav>
+            <!--LIBRARY BLOCK-->
+            <div class="libSection">
+                <div class="libLine">
+                    <div class="libOption">
+                        <img src="./_assets_spotify/library_icon.png" alt="lib_icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <a class="plus"><i class="fa-solid fa-plus"></i></a>
+                    <a class="rightArrow"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="libBoxes">
+                    <div class="libBox">
+                        <h3>Creates your first playlist</h3>
+                        <p>It's easy,we'll help you</p>
+                        <button type="button">Create playlist</button>
+                    </div>
+                    <div class="libBox">
+                        <h3> Let's find some podcasts to follow</h3>
+                        <p> We'll keep you updated on new episodes </p>
+                        <button type="button">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainMenu">
+            <div class="MmSec1">
+                <div class="MmS1Btns1">
+                    <img class="ForBackIcons" src="./_assets_spotify/backward_icon.png" alt="Backward_icon">
+                    <img class="ForBackIcons" src="./_assets_spotify/forward_icon.png" alt="Forward_icon">
+                </div>
+                <div class="MmS1Btns2">
+                    <button class="upgrade">Upgrade</button>
+                    <button class="install"><i class="fa-solid fa-download"></i> Install App</button>
+                    <button class="user"><i class="fa-regular fa-user"></i></button>
+                </div>
+            </div>
+            <div class="MmSec2">
+                <h2 class="cardHead">Recently Played</h2>
+                <div class="cardSec1">
+                    <div class="card">
+                        <img src="./_assets_spotify/card1img.jpeg" alt="card1img">
+                        <h2>Top 50 - Global</h2>
+                        <p>Your daily update of the most played tracks rig...</p>
+                    </div>
+                </div>
+                <h2 class="cardHead">Trending now near you</h2>
+                <div class="cardSec2">
+                    <div class="card">
+                        <img src="./_assets_spotify/card2img.png" alt="card2png">
+                        <h2>Varanasi kumbha Theme song</h2>
+                        <p> Universal music</p>
+                    </div>
+                    <div class="card">
+                        <img src="./_assets_spotify/card3img.png" alt="card3png">
+                        <h2>FA9LA</h2>
+                        <p> Flipperachi</p>
+                    </div>
+                    <div class="card">
+                        <img src="./_assets_spotify/card4img.jpeg" alt="card4img">
+                        <h2>Mahiye Jinna Sohna</h2>
+                        <p> Darshan Raval</p>
+                    </div>
+                    <div class="card">
+                        <img src="./_assets_spotify/card5img.jpeg" alt="card5img">
+                        <h2>Mere Paas Tum Ho...</h2>
+                        <p> Rahat Fateh Ali Khan</p>
+                    </div>
+                    <div class="card">
+                        <img src="./_assets_spotify/card6img.jpeg" alt="card6img">
+                        <h2>Naa Ready (From "L ...</h2>
+                        <p>Anirudh Ravichander, Thalapathy Vijay, Asal ...</p>
+                    </div>
+
+                </div>
+                <h2 class="cardHead">Featured Charts</h2>
+                <div class="cardSec3">
+                    <div class="card">
+                        <img src="./_assets_spotify/card7img.jpeg" alt="card7img">
+                        <h2>Top 50 - Global</h2>
+                        <p>Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./_assets_spotify/card8img.jpeg" alt="card8img">
+                        <h2>Top Songs - India</h2>
+                        <p>Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./_assets_spotify/card1img.jpeg" alt="card9img">
+                        <h2>Top 50 - Global</h2>
+                        <p>Your daily update of the most played tracks rig...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomBar">
+            <div class="BbSec1">
+                <div class="songName"><img src="./_assets_spotify/songname_icon.png" alt="songname_icon"></div>
+                <div class="likeBtn"><i class="fa-regular fa-heart"></i></div>
+            </div>
+            <div class="BbSec2">
+                <div class="musicPlayerSec1"><img src="./_assets_spotify/player_icon1.png" alt="player_icon1">
+                    <img src="./_assets_spotify/player_icon2.png" alt="player_icon2">
+                    <img src="./_assets_spotify/player_icon3.png" alt="player_icon3" id="playBtn">
+                    <img src="./_assets_spotify/player_icon4.png" alt="player_icon4">
+                    <img src="./_assets_spotify/player_icon5.png" alt="player_icon5">
+                </div>
+                <div class="musicPlayerSec2">
+                    <div class="currTime">00:00</div>
+                    <input type="range" class="musicPlayer">
+                    <div class="totalTime">4:19</div>
+                </div>
+            </div>
+            <div class="BbSec3">
+                <i class="fa-regular fa-circle-check"></i>
+                <i class="fa-regular fa-headphones"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" class="volume" min="0" max="100" value="90">
+                <i class="fa-solid fa-expand"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
