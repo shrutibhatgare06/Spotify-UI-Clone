@@ -5,3 +5,5 @@ HTML, CSS, Font Awesome<br>
 -Designed a Spotify-inspired music streaming UI focusing on layout, alignment, and visual consistency.<br>
 -Practiced responsive styling and component-based UI structuring.<br>
 -JavaScript-based functionality currently under learning and improvement.<br>
+## Live Demo
+https://shrutibhatgare06.github.io/Spotify-UI-Clone/
